@@ -1,0 +1,50 @@
+-+p{
+  color:blue;
+}
+/* we are creating a border box, at least i think*/
+*{
+  box-sizing: border box;
+}
+/* make a prediction about line 6 rule set*/
+body{
+  backrgound-color: lavender ;
+  color: rgb(0, 0, 0);
+}
+
+
+/*style of the navigation bar*/
+.topnav{
+  background-color: lightblue;
+  overflow: hidden;
+}
+
+/* style the links inside the navagation bar*/
+.topnav a{
+  color: rgb(255, 255, 255);
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/*change color on hover or mouse over*/
+.topnav a:hover{
+  background-color: beige;
+  color: black;
+}
+/* style of header */
+
+.headerlab10{
+  background-color:lightblue;
+  padding: 20px;
+  text-align:center;
+  color:black;
+}
+
+
+/*creates 3 equal colums that float next to
+each ther*/
+.colum{
+  float: left;
+  width:33.33%
+}

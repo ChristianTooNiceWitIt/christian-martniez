@@ -1,0 +1,147 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="lab11.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="../Woah.png">
+    <style> 
+    #lb_11 {border:grey solid 10px;
+    width:500px;
+    height:500px;
+    position:relative;
+    left:0px; 
+    padding:13px
+    margin:5px; 
+    overflow:hidden;
+    }
+
+      #apple{
+        
+        width:40px;
+        height:40px;
+        position:absolute;
+        left:250px;
+        top:150px;
+        z-index:1;
+      }
+      #apple:hover{visibility:hidden;}
+   
+    #lc_11 {
+      border:grey solid 10px;
+    width:500px;
+    height:500px;
+    position:absolute;
+    right:5px;
+   top:298px;
+    padding:1px;
+    margin:5px; 
+    overflow:hidden;
+    } 
+      #rock{
+        
+        width:200px;
+        height:80px;
+        position:absolute;
+        left:250px;
+        top:300px;
+        z-index:1;
+        opacity:0%;
+      }
+      #rock:hover{
+       opacity:100%;}
+      
+       
+        #duane{
+        width:100px;
+        height:100px;
+        position:absolute;
+        left:0px;
+        top:50px;
+        z-index:1;
+          opacity:0%;
+      }
+      #duane:hover{
+       opacity:100%;}
+ #shreck{
+        width:150px;
+        height:80px;
+        position:absolute;
+        left:250px;
+        top:100px;
+        z-index:1;
+        opacity:0%;
+      }
+      #shreck:hover{
+       opacity:100%;}
+
+       #woody{
+        width:80px;
+        height:80px;
+        position:absolute;
+        left:200px;
+        top:10px;
+        z-index:1;
+        opacity:0%;
+      }
+      #woody:hover{
+       opacity:100%;}
+
+       #name{
+        width:120px;
+        height:120px;
+        position:absolute;
+        left:10px;
+        top:300px;
+        z-index:1;
+        opacity:0%;
+      }
+      #name:hover{
+       opacity:100%;}
+
+    </style>
+
+  </head>
+  <body>
+    <div class="header">
+      <h1>Thomas A. edison HS</h1>
+      <h2>Web Design Academy</h2>
+      <h3>Lab 11 z index</h3>
+      <h4>Christian Martinez</h4>
+    </div>
+<div class="topnav">
+  <a href="https://ovalgiddydisplaymanager.christianmart35.repl.co/Labs/Lab1/1b1.html">Lab 1</a>
+  <a href="https://ovalgiddydisplaymanager.christianmart35.repl.co/Labs/Lab2/1b2.html">Lab 2</a>
+  <a href="https://ovalgiddydisplaymanager.christianmart35.repl.co/Labs/Lab3/1b3.html">Lab 3</a>
+  <a href="https://ovalgiddydisplaymanager.christianmart35.repl.co/Labs/Lab4/1b4.html">Lab 4</a>
+  <a href="https://ovalgiddydisplaymanager.christianmart35.repl.co/Labs/Lab5/1b5.html">Lab 5</a>
+  <a href="https://ovalgiddydisplaymanager.christianmart35.repl.co/Labs/Lab6/1b6.html">Lab 6</a>
+  <a href="../Lab7/1b7.html">Lab 7</a>
+  <a href="../Lab8/1b8.html">Lab 8</a>
+  <a href="../Lab9/1b9.html">Lab 9</a>
+  <a href="../Lb10/1b10.html">Lab 10</a>
+  <a href="../Lb11/1b11.html">Lab 11</a>
+  <a href="../Lb12/1b12.html">Lab 12</a>
+  <a href="../Lb13/1b13.html">Lab 13</a>
+  <a href="../Lb14/1b14.html">Lab 14</a>
+  <a href="../Lb15/1b15.html">Lab 15</a>
+  <a href="../Lb16/1b16.html">Lab 16</a>
+  <a href="../Lb17/1b17.html">Lab 17</a>
+  <a href="../Lb18/1b18.html">Lab 18</a>
+  <a href="../Lb19/1b19.html">Lab 19</a>
+  <a href="../Lb20/1b20.html">Lab 20</a></div>
+<Div class="border">
+</Div>
+    
+  </body>
+    <div id="lb_11"> 
+      <img src="https://i.pinimg.com/originals/d0/04/28/d00428efa0bf27b9edd37eac32dfd2c1.png" alt="" id="tree">
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/25d45014-8cc3-4c98-b02c-5a0cf3a55ddd/ddkhlgm-02f3d980-816e-4ad8-9064-1b4d84d90315.png/v1/fill/w_900,h_888,strp/red_apple_on_a_transparent_background__by_prussiaart_ddkhlgm-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI1ZDQ1MDE0LThjYzMtNGM5OC1iMDJjLTVhMGNmM2E1NWRkZFwvZGRraGxnbS0wMmYzZDk4MC04MTZlLTRhZDgtOTA2NC0xYjRkODRkOTAzMTUucG5nIiwiaGVpZ2h0IjoiPD04ODgiLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLndhdGVybWFyayJdLCJ3bWsiOnsicGF0aCI6Ilwvd21cLzI1ZDQ1MDE0LThjYzMtNGM5OC1iMDJjLTVhMGNmM2E1NWRkZFwvcHJ1c3NpYWFydC00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.g07UNgxANMWZq-tEsgi4xVuiSlqshlZLM-EgC6glENM" alt="" id="apple"></div>
+<div id="lc_11"> 
+  <img src="https://c.tenor.com/kHcmsxlKHEAAAAAC/rock-one-eyebrow-raised-rock-staring.gif" alt="" id="rock">
+  <img src="https://www.maxpixel.net/static/photo/1x/Universe-Night-Sky-Star-Starry-Sky-Galaxies-Galaxy-3607885.jpg" alt="" id="black">
+  <img src="xd.jpg" alt="" id="duane">
+  <img src="https://i.kym-cdn.com/photos/images/facebook/000/744/400/8d2.jpg" alt="" id="shreck">
+  <img src="https://i.pinimg.com/564x/70/eb/1e/70eb1ec2fbbae0f7b276f9a48e67c24d.jpg" alt="" id="woody">
+  <img src="https://www.finetoshine.com/wp-content/uploads/2020/08/Sprinkle-kawaii-ice-cream-Sticker-in-2020-Cute.jpg" alt="" id="name">
+</html>
